@@ -8,7 +8,7 @@ from matplotlib.gridspec import GridSpec
 # %matplotlib inline
 
 # leia a imagem
-img = plt.imread('./img/fishing.jpg')
+img = plt.imread('./img/ogrito.jpg')
 
 # remodelando a matriz de pixels
 pixels = np.reshape(img, (img.shape[0]*img.shape[1], 3))
